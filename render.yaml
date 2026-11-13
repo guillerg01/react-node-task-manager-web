@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: react-node-task-manager-web
+    runtime: static
+    branch: main
+    autoDeployTrigger: checksPass
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: VITE_API_URL
+        sync: false
