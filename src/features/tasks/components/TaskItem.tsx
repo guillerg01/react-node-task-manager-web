@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { FormControl, MenuItem, Select } from '@mui/material'
 import type { SelectChangeEvent } from '@mui/material/Select'
-import type { Task, TaskStatus } from '../../../api/types'
-import { statusLabels, taskStatuses } from '../../../api/types'
+import type { Task, TaskStatus } from '../types'
+import { statusLabels, taskStatuses } from '../types'
 
 type Props = {
   task: Task

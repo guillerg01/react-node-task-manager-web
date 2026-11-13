@@ -5,10 +5,10 @@ import type {
   TaskFilter,
   TaskPage,
   TaskStatus,
-} from '../../api/types'
-import { taskPageSize } from '../../api/types'
-import { requestErrorMessage } from '../../api/requestError'
-import { createTask, listTasks, updateTaskStatus } from './tasksApi'
+} from '../types'
+import { taskPageSize } from '../types'
+import { requestErrorMessage } from '../../../api/requestError'
+import { createTask, listTasks, updateTaskStatus } from '../api/tasksApi'
 
 export function useTasks(
   filter: TaskFilter,
