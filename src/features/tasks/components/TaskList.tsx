@@ -2,7 +2,7 @@ import RefreshRounded from '@mui/icons-material/RefreshRounded'
 import TaskAltRounded from '@mui/icons-material/TaskAltRounded'
 import { Button, CircularProgress } from '@mui/material'
 import type { ReactNode } from 'react'
-import type { Task, TaskStatus } from '../../../api/types'
+import type { Task, TaskStatus } from '../types'
 import PaginationControl from '../../../shared/components/PaginationControl'
 import TaskItem from './TaskItem'
 

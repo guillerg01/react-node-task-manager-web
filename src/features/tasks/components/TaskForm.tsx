@@ -2,7 +2,7 @@ import { useRef, type FormEvent } from 'react'
 import AddRounded from '@mui/icons-material/AddRounded'
 import { Button } from '@mui/material'
 import { useForm } from 'react-hook-form'
-import type { CreateTaskInput } from '../../../api/types'
+import type { CreateTaskInput } from '../types'
 import ValidatedTextField from '../../../shared/components/ValidatedTextField'
 
 type Props = { addTask: (input: CreateTaskInput) => Promise<boolean> }

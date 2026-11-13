@@ -5,11 +5,11 @@ import {
   type CreateTaskInput,
   type TaskFilter,
   type TaskStatus,
-} from '../../../api/types'
+} from '../types'
 import { useNotification } from '../../../shared/notifications/useNotification'
 import { requestErrorMessage } from '../../../api/requestError'
 import { readTaskFilter, writeTaskFilter } from '../taskFilterStorage'
-import { useTasks } from '../useTasks'
+import { useTasks } from '../hooks/useTasks'
 import TaskFilterControl from './TaskFilter'
 import TaskForm from './TaskForm'
 import TaskList from './TaskList'

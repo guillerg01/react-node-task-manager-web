@@ -1,4 +1,4 @@
-import type { TaskFilter } from '../../api/types'
+import type { TaskFilter } from './types'
 
 const filterStorageKey = 'task-manager:filter:v1'
 const validFilters = new Set<TaskFilter>([

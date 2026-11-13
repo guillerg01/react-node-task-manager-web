@@ -1,6 +1,6 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material'
 import type { SelectChangeEvent } from '@mui/material/Select'
-import type { TaskFilter } from '../../../api/types'
+import type { TaskFilter } from '../types'
 
 type Props = { value: TaskFilter; onChange: (filter: TaskFilter) => void }
 

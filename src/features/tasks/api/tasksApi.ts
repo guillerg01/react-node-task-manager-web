@@ -1,10 +1,10 @@
-import { http } from '../../api/http'
+import { http } from '../../../api/http'
 import type {
   CreateTaskInput,
   Task,
   TaskPage,
   TaskStatus,
-} from '../../api/types'
+} from '../types'
 
 export async function listTasks(
   status: TaskStatus | undefined,
